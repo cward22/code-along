@@ -43,22 +43,27 @@ body, html {
     width: 18%;
     padding: 4px;
     border-style: solid;
+    border-radius: 2px;
 }
 
 #areaCode, #firstThree, #lastFour {
     width: 3.8%;
     padding: 4px;
     border-style: solid;
+    border-radius: 2px;
 }
 
 /* Button */
 
 #submitButton {
     margin: 2%;
-    padding: 8px 18px;
-    background-color: black;
+    padding: 8px 24px;
+    background-color: #C4C4C4;
     border: none;
-    color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
 }
 
  
