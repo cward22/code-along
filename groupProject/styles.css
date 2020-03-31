@@ -21,7 +21,21 @@ body, html {
 
 #combinedBox {
     position: relative;
-    padding: 10%;
+    padding: 12%;
+}
+
+#welcomeBox {
+    margin: 20px;
+}
+
+#paragraphBox {
+    text-align: center;
+    height: 6%;
+    font-size: 16px;
+}
+
+#inputBox {
+    padding: 15px;
 }
 
 #lineOne {
@@ -30,33 +44,38 @@ body, html {
     font-weight: bold;
     font-size: 50px;
     margin: 30px;
+    color: black;
 }
 
-#paragraph {
+/* #paragraph {
     text-align: center;
     height: 6%;
-}
+} */
 
 /* Input Fields */
 
-#firstName, #lastName {
-    width: 18%;
+#firstName, #lastName, #phoneNumber {
+    width: 22%;
     padding: 4px;
     border-style: solid;
     border-radius: 2px;
 }
 
-#areaCode, #firstThree, #lastFour {
+#phoneNumber {
+    width: 19%;
+}
+
+/* #areaCode, #firstThree, #lastFour {
     width: 3.8%;
     padding: 4px;
     border-style: solid;
     border-radius: 2px;
-}
+} */
 
 /* Button */
 
 #submitButton {
-    margin: 2%;
+    margin: 1%;
     padding: 8px 24px;
     background-color: #C4C4C4;
     border: none;
@@ -65,5 +84,17 @@ body, html {
     font-size: 14px;
     border-radius: 3px;
 }
+
+/* Footer */
+
+/* #inspiration {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  height: 7%;
+  padding: 7px;
+  margin: -10px;
+} */
 
  
