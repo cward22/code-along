@@ -91,6 +91,7 @@ body, html {
 #phoneNumber {
     /* width: 19%; */
     width: 160px;
+    text-align: center;
 }
 
 /* #areaCode, #firstThree, #lastFour {
