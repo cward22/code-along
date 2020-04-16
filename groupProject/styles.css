@@ -82,16 +82,17 @@ body, html {
 #firstName, #lastName, #phoneNumber {
     font-size: 15px;
     width: 192px;
+    height: 19px;
     /* width: 100px; */
     /* padding: 4px; */
     border-style: solid;
     border-radius: 2px;
+    text-align: center;
 }
 
 #phoneNumber {
     /* width: 19%; */
     width: 160px;
-    text-align: center;
 }
 
 /* #areaCode, #firstThree, #lastFour {
